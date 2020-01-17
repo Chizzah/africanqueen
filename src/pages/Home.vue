@@ -34,7 +34,7 @@
             <section class="w-full h-full py-4 flex flex-col justify-center items-center bg-white rounded-b-lg">
               <p class="py-2"><span class="text-3xl text-yellow-700 font-bold">R{{ edge.node.unitCost }}</span> including VAT</p>
               <section class="w-full h-full py-4 flex justify-around items-center">
-                <button class="py-2 px-5 text-gray-100 flex justify-center items-center bg-blue-600 rounded-full shadow focus:outline-none"><g-image src="../../static/icons/info.svg" alt="" /></button>
+                <g-link :to="`/product/${edge.node.slug}`"><button class="py-2 px-5 text-gray-100 flex justify-center items-center bg-blue-600 rounded-full shadow focus:outline-none"><g-image src="../../static/icons/info.svg" alt="" /></button></g-link>
                 <button class="py-2 px-5 text-gray-100 flex justify-center items-center bg-red-700 rounded-full shadow focus:outline-none"><g-image src="../../static/icons/heart.svg" alt="" /></button>
                 <button class="py-2 text-gray-100 px-5 flex justify-center items-center bg-rosegold rounded-full shadow focus:outline-none"><g-image src="../../static/icons/cart.svg" alt="" /></button>
               </section>
@@ -74,11 +74,6 @@
           name
           images {
             url
-            thumbnails {
-              small {
-                url
-              }
-            }
           }
           inStock
           unitCost
