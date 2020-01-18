@@ -18,13 +18,15 @@ module.exports = {
     },
     extend: {
       colors: {
-        cyan: '#9cdbff',
         rosegold: '#b7756e',
       },
       spacing: {
         '96': '24rem',
         '128': '32rem',
         '256': '64rem',
+      },
+      fontSize: {
+        'xxs': '0.5rem'
       }
     }
   }

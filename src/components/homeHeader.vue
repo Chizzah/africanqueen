@@ -2,7 +2,7 @@
   <header class="lg:text-xl sm:py-2">
     <nav class="flex items-center justify-between w-full py-2 text-gray-900">
       <section class="flex items-center justify-around py-2">
-        <g-link to="/home"><h5 class="flex items-center justify-center ml-4 font-semibold text-md uppercase sm:text-xl lg:ml-8 lg:text-2xl">African<span class="flex items-center justify-center text-rosegold mr-1">Queen</span></h5></g-link>
+        <g-link to="/home"><h5 class="flex items-center justify-center ml-6 font-semibold text-md uppercase sm:text-xl lg:ml-8 lg:text-2xl">African<span class="flex items-center justify-center text-rosegold mr-1">Queen</span></h5></g-link>
       </section>
       <section class="hidden lg:uppercase lg:font-semibold lg:flex lg:text-lg lg:items-center">
         <ul v-for="menuItem in menuItems" :key="menuItem.title">
