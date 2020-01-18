@@ -26,9 +26,11 @@
           <button class="py-2 px-4 bg-rosegold text-gray-100 text-lg font-semibold rounded-full uppercase hover:bg-red-300 focus:outline-none">Shop Now</button>
         </section>
       </section>
-      <section class="mt-4 mx-6 flex flex-col justify-center items-start lg:hidden">
+      <section class="mt-8 mx-6 flex flex-col justify-center items-start lg:hidden">
         <h2 class="my-4 text-xl text-rosegold font-semibold uppercase">Naturally Amazing</h2>
-        <p>Be the QUEEN you deserve to be. Get advice on going natural, support the cause with our merch and find 100% natural hair & health products in our online store.</p>
+        <p class="mb-4">Be the QUEEN you deserve to be. Get advice on going natural, support the cause with our merch and find 100% natural hair & health products in our online store.</p>
+        <p>Be one of the first to join our mailing list between April 2020 - May 2020 and stand a chance to win 1 of 10 epic limited edition AfricanQueen t-shirts!</p>
+          <button class="mt-8 py-2 px-4 bg-rosegold text-gray-100 text-lg font-semibold rounded-full uppercase hover:bg-red-300 focus:outline-none">Join Now</button>
       </section>
     </section>
     <section class="mt-12 mx-6 flex flex-col justify-center items-start">

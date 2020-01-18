@@ -1,5 +1,5 @@
 <template>
-  <footer class="hidden text-gray-500 bg-gray-900 lg:rounded-lg lg:mb-16 lg:max-w-6xl lg:mx-auto">
+  <footer class="text-gray-500 bg-gray-900 lg:rounded-lg lg:mb-16 lg:max-w-6xl lg:mx-auto">
     <section class="mt-8 border-b border-rosegold border-solid sm:mx-12 lg:ml-24 lg:mt-16">
       <h4 class="pt-16 mx-8 mb-4 text-xs text-yellow-700 font-semibold uppercase lg:text-lg">Be Incredible. Be Natural.</h4>
       <h2 class="mx-8 mb-6 text-rosegold text-lg lg:text-3xl">Unleash & unshackle the AFRO QUEEN you're meant to be. Become your natural self!</h2>
